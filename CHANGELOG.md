@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.4.0](https://github.com/HeyPuter/puter/compare/v2.3.0...v2.4.0) (2024-06-05)
+
+
+### Features
+
+* **backend:** add script service ([30550fc](https://github.com/HeyPuter/puter/commit/30550fcddda18469735499546de502d29b85e2ad))
+* **backend:** add tip of day ([2d8e624](https://github.com/HeyPuter/puter/commit/2d8e6240c61dc6301f49cbdcd1c3b04736f9ca93))
+* **backend:** allow services to provide user properties ([522664d](https://github.com/HeyPuter/puter/commit/522664d415c33342500defec309c2ff15bc94804))
+* **backend:** allow services to provide whoami values ([fccabf1](https://github.com/HeyPuter/puter/commit/fccabf1bc0c4418f3599222616dd63bf98c14fe1))
+* **backend:** improve logger and reduce logs ([4bdad75](https://github.com/HeyPuter/puter/commit/4bdad75766d0617a164024b39b79bf5373c495a6))
+* **parsely:** Add a fail() parser ([5656d9d](https://github.com/HeyPuter/puter/commit/5656d9d42f76202a534ad640d3a4e287e0e40418))
+* **parsely:** Add stringUntil() parser ([d46b043](https://github.com/HeyPuter/puter/commit/d46b043c5d16f1205d61de3f3ba43ed8ad7bff93))
+* **phoenix:** Add --dump and --file options to sed ([f250f86](https://github.com/HeyPuter/puter/commit/f250f86446a506f24fa2ad396328e3a2212a68d0))
+* **phoenix:** Add more commands to sed, including labels and branching ([306014a](https://github.com/HeyPuter/puter/commit/306014adc77a7ca155feb95d1146cb46ee075b52))
+* **phoenix:** Expose parsed arg tokens to apps that request them ([4067c82](https://github.com/HeyPuter/puter/commit/4067c82486c99cad20f41927ad39ebea438b717f))
+* **phoenix:** Implement parsing of sed scripts ([0d4f907](https://github.com/HeyPuter/puter/commit/0d4f907b6675b15bd50a55f50aa28f0803b18b7b))
+* **ui:** add new components ([577bd59](https://github.com/HeyPuter/puter/commit/577bd59b6cc94810e851ad544f8234e25a4e6e27))
+* **ui:** add new components ([38ba425](https://github.com/HeyPuter/puter/commit/38ba42575ce9f3506f8ce219b9580202b3ed9993))
+* **ui:** allow component-based settings tabs ([1245960](https://github.com/HeyPuter/puter/commit/124596058a286241b51dd87ce2fc1a68478cb5b8))
+
+
+### Bug Fixes
+
+* check subdomain earlier for /apps ([4e3a24e](https://github.com/HeyPuter/puter/commit/4e3a24e6093e279e210765e07e436f4e63b74072))
+* fix typo ([ce328b7](https://github.com/HeyPuter/puter/commit/ce328b7245ad741b64c5885f64f806fc98a55d84))
+* **parsely:** Make Repeat parser work when no separator is given ([9b4d16f](https://github.com/HeyPuter/puter/commit/9b4d16fbe9d5698c57f9da725a22b528a7d7cac2))
+* **phoenix:** Add missing newlines to sed command output ([e047b0b](https://github.com/HeyPuter/puter/commit/e047b0bf302284da61e677432e4cc25b531b24f2))
+* **ui:** improve Component base class ([f8780d0](https://github.com/HeyPuter/puter/commit/f8780d032b10138851c22af53b8610c578139acc))
+
 ## 2.3.0 (2024-05-22)
 
 
